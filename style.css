@@ -1,0 +1,299 @@
+ody {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:darkgray;
+    font-size: smaller;
+}
+
+.resume {
+    width: 1318.08px;
+    height: 755.09px;
+    margin: 20px auto;
+    background-color: lightgray;
+    border-radius: 29.04px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(23, 11, 11);
+}
+
+.top-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-card, .proficiency-card, .skills-card, .education-card, .tools, .experience-card, .lets-chat {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    display: flex;
+    align-items: flex-start;
+    width: 1329.17px;
+    height: 300.1px;
+    top: 63px;
+    left: 59px;
+    border-radius: 29.04px;
+    gap: 10px;
+
+}
+
+.profile-image img {
+    width: 300.1px;
+    height: 300.1px;
+    top: 63px;
+    border-radius: 29.04px;
+    left: 59px;
+}
+
+.profile-text h2 { 
+    font: poppins;
+    font-weight: 600;
+    size: 36px;
+    line-height: 104%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+    
+}
+
+.profile-text p {
+    font: poppins;
+    font-weight: 400;
+    size: 22px;
+    line-height: 151%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #5c5c5c;
+}
+
+.proficiency-skills-cards {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.proficiency-card, .skills-card {
+    width: 48%; /* Example value: Adjust as needed */
+}
+
+.proficiency h2, .skills h2, .projects h2, .education h2, .tools h2, .experience h2, .lets-chat h2 {
+    font-size: 1.2em;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.proficiency-item {
+    margin-bottom: 10px;
+}
+
+.proficiency-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.proficiency-level {
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.skills-items {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skills-items p {
+    background-color: #e8f5e9;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    position: relative;
+    background-color: #14e757;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.project-card-header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.vector-icon img {
+    width: 26.62px;
+    height: 22.71px;
+    color: #d76339;
+}
+
+.education-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top:1691.09px;
+    left: 63px;
+    width: 994.69px; /*fixed width */
+    height: 847.06px; /* fixed height */
+    padding: 29px;
+    border-radius: 29.04px;
+}
+
+.education-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.education-card h3, .education-card h4 {
+    margin: 0;
+}
+
+.education-card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.education-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.education-card li {
+    margin-bottom: 5px;
+}
+
+.tools {
+    background-color: #f0f0f0;
+    border-radius: 29.04px;
+    padding: 15px;
+    margin-top: 10px;
+    width: 300.1px;
+    height: 847.06px;
+    top: 1691.29px;
+    left: 1078.69px;
+}
+
+.tools-grid {
+    display: grid; /* Grid layout for icons */
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+}
+
+.tool-icon img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.experience-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    top: 31px;
+    right: 27px;
+    bottom: 32px;
+    left: 27px;
+    color: white;
+}
+
+.experience-card {
+    background-color: #4CAF50;
+    border-radius: 8px;
+    padding: 20px;
+    font: poppins;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.experience-card h3, .experience-card h4 {
+    margin: 0;
+    color: white;
+    size: 19.36px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.experience-card p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.experience-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-card li {
+    margin-bottom: 5px;
+}
+
+.lets-chat {
+    background-color: #d76239;
+    border-radius: 29.04px;
+    padding: 20px;
+    margin-top: 29.04px;
+    justify-content: space-between;
+    width: 1,322px;
+    height: 158px;
+    top: 3274.15px;
+    left: 59px;
+}
+
+.lets-chat h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media (max-width:786px) {
+    .resume {
+        width: 95%;
+        margin: 10px;
+
+    }
+    .proficiency-card, .skills-card {
+        width:100%
+    }
+    .tools-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contact-links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
